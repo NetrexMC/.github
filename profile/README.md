@@ -1,12 +1,27 @@
-## Hi there 👋
+<div align="center">
+     <p>
+          <img alt="Netrex" width="250" src="https://raw.githubusercontent.com/NetrexMC/Netrex/master/assets/netrex_dark.png#gh-dark-mode-only">
+          <img alt="Netrex" width="250" src="https://raw.githubusercontent.com/NetrexMC/Netrex/master/assets/netrex_light.png#gh-light-mode-only"> 
+    </p>
+     <p>
+          <p>A minecraft bedrock software written in Rust.</p>
+            <a href="https://discord.gg/y4aWA5MQxK"><img src="https://img.shields.io/discord/846586369568800798.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2"></a>
+     </p>
+</div>
 
-<!--
+# Netrex
 
-**Here are some ideas to get you started:**
+Netrex is a powerful multi-threaded/multi-processed server software for Minecraft Bedrock.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+> :warning:Netrex is not currently production ready.
+
+
+
+### Libraries
+
+Netrex provides a multitude of libraries that you can use in your own projects:
+
+- [RakNet](https://github.com/NetrexMC/RakNet) (`rakrs`) - A fully functional RakNet implementation in rust.
+- [binary-utils](https://github.com/NetrexMC/binary-utils) (`binary-util`) - A panic free binary utility crate to read/write binary buffers over the wire.
+- [Protocol](https://github.com/NetrexMC/Protocol) (`mcpe-protocol`) - A multi-protocol library for minecraft pocket-edition utilizing binary-utils
+
